@@ -1,0 +1,3 @@
+add_library(inner_product inner_product.cpp)
+
+target_include_directories(inner_product PUBLIC include)
